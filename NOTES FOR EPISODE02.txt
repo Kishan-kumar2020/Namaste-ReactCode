@@ -1,0 +1,47 @@
+FOR EPISODE 2
+
+PART 01
+--> CODE THAT IS PRODUCTION READY
+--> HOW YOU CAN CREATE YOUR OWN PRODUCTION READY CREATE REACT APP
+
+What is NPM
+NODE PACKAGE MANAGER (NOT CORRECT)
+npm manages the packages but not stands for node package manager
+
+npn init
+
+// npm is the standard repository for all the packages
+// package.json is the configuration for npm
+
+What is a bundler?
+example: webpack, wheat, bable, parcel
+
+create-react-app  uses webpack bundler behind the scenes
+
+npm install -D parcel
+
+what is -D?
+There are two dependencies
+--> Dev dependency
+--> Normal dependency --> used in production also
+
+"parel": "^2.8.3"
+^ carot --> upgrade minor versions generally
+~ tilde --> upgrade major versions generally
+What are that why are there?
+
+What is package-lock.json?
+As installed, why this file is created
+This keeps the record of every version that is being installed
+"parcel": "2.8.3."
+
+What is the difference between package.json and package-lock.json?
+approx version and exact version
+
+!! IT IS WORKING IN MY LOCAL NOT WORKING IN PRODUCTION !!
+"integrity": "                                                 "
+
+package-lock.json keeps the track of exact version that is in my local and also for production
+
+transitive dependencies
+1:16 left
