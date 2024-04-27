@@ -24,3 +24,20 @@ heading react element // react h1 element
 props are children + attributes
 
 PART 04
+    # Creating nested Elements using React.createElement
+
+[] are used to create the element at the same level,  we have to convert children as array
+We directly pass React.createElement to children to create the nested elements
+
+Code structure becomes messy if we create in this way
+So, there is JSX
+
+What is this root.render() is doing
+--> putting the heading tag inside the root tag
+--> This will totally replace the root with only content that heading element (whatever we are passing in the root.render method) is bringing
+    that are replaced not appended
+
+Why react is called a library?
+As, it can work in the small portion of the app as well
+while
+A framework is that which comes with all things while react is the library
