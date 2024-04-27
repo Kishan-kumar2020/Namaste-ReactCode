@@ -1,1 +1,136 @@
 # Namaste React 🚀
+
+<!-- Episode 1 notes Starts from here -->
+# FOR EPISODE 1
+
+PART 01
+
+PART 02
+# After including CDN links, building basic hellow world program using react
+
+# index.html
+creating a element is the core thing of react that comes from react.development.js
+creating a root is comes from the react-dom.development.js
+
+PART 03
+# Creating a new js file to put all the js code inside that named as App.js
+
+%% React was build with a philosophy that we have to manipulate our DOM using JavaScript
+--> The most costly operation in the webpage is when the DOM nodes needs to be manipulated
+
+What are the powers of head Tag
+What is the tailwind css
+
+React.createElement() is an object
+heading react element // react h1 element
+
+props are children + attributes
+
+PART 04
+# Creating nested Elements using React.createElement
+
+[] are used to create the element at the same level,  we have to convert children as array
+We directly pass React.createElement to children to create the nested elements
+
+Code structure becomes messy if we create in this way
+So, there is JSX
+
+What is this root.render() is doing
+--> putting the heading tag inside the root tag
+--> This will totally replace the root with only content that heading element (whatever we are passing in the root.render method) is bringing
+    that are replaced not appended
+
+Why react is called a library?
+As, it can work in the small portion of the app as well
+while
+A framework is that which comes with all things while react is the library
+
+<!-- Episode 1 Notes Completed -->
+
+<!-- Episode 2 notes Starts from here -->
+# FOR EPISODE 2
+
+PART 01
+--> Creating a readme.md file
+
+What is the difference between git and github?
+
+--> CODE THAT IS PRODUCTION READY
+--> HOW YOU CAN CREATE YOUR OWN PRODUCTION READY CREATE REACT APP
+
+What is NPM
+NODE PACKAGE MANAGER (NOT CORRECT)
+npm manages the packages but not stands for node package manager
+
+npn init
+
+// npm is the standard repository for all the packages
+// package.json is the configuration for npm
+
+What is a bundler?
+example: webpack, wheat, bable, parcel
+
+create-react-app  uses webpack bundler behind the scenes
+
+npm install -D parcel
+
+what is -D?
+There are two dependencies
+--> Dev dependency
+--> Normal dependency --> used in production also
+
+"parel": "^2.8.3"
+^ carot --> upgrade minor versions generally
+~ tilde --> upgrade major versions generally
+What are that why are there?
+
+What is package-lock.json?
+As installed, why this file is created
+This keeps the record of every version that is being installed
+"parcel": "2.8.3."
+
+What is the difference between package.json and package-lock.json?
+approx version and exact version
+
+!! IT IS WORKING IN MY LOCAL NOT WORKING IN PRODUCTION !!
+"integrity": "                                                 "
+
+package-lock.json keeps the track of exact version that is in my local and also for production
+
+transitive dependencies
+1:16 left
+
+For package and package-lock .json we can keep on git
+As these are maintaining the exact version/exact integrity/exact hash so what is in my local same as in production
+
+We don't required to put nodemodules
+
+npx parcel index.html
+
+npx is executing a package
+
+npm install react
+npm install react-dom
+
+Browser scripts cannot have imports and exports
+<script type="module" src="./app.js"></script>
+
+parcel
+--> Dev Build for you
+--> Local Server
+--> HMR = Hot Module Replacement
+--> File Watching Algorithm written in C++
+--> Caching - Faster Builds
+--> Image Optimization
+--> Minification
+--> Bundling
+--> Compress
+--> Consistent Hashing
+--> Code Spliting
+--> Differential Bundling - support older browsers
+--> Error Handling
+--> To host your app on https
+--> Tree Shaking Algorithm
+--> Different Dev and Prod bundles
+
+<!-- Episode 2 Notes Completed -->
