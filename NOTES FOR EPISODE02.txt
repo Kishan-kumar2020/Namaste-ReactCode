@@ -1,6 +1,10 @@
 FOR EPISODE 2
 
 PART 01
+--> Creating a readme.md file
+
+What is the difference between git and github?
+
 --> CODE THAT IS PRODUCTION READY
 --> HOW YOU CAN CREATE YOUR OWN PRODUCTION READY CREATE REACT APP
 
