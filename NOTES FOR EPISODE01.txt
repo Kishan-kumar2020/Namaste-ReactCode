@@ -3,7 +3,11 @@ FOR EPISODE 1
 PART 01
 
 PART 02
+    # After including CDN links, building basic hellow world program using react
 
+# index.html
+creating a element is the core thing of react that comes from react.development.js
+creating a root is comes from the react-dom.development.js
 PART 03
 
 PART 04

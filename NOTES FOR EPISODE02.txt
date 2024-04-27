@@ -45,3 +45,36 @@ package-lock.json keeps the track of exact version that is in my local and also 
 
 transitive dependencies
 1:16 left
+
+For package and package-lock .json we can keep on git
+As these are maintaining the exact version/exact integrity/exact hash so what is in my local same as in production
+
+We don't required to put nodemodules
+
+npx parcel index.html
+
+npx is executing a package
+
+npm install react
+npm install react-dom
+
+Browser scripts cannot have imports and exports
+<script type="module" src="./app.js"></script>
+
+parcel
+--> Dev Build for you
+--> Local Server
+--> HMR = Hot Module Replacement
+--> File Watching Algorithm written in C++
+--> Caching - Faster Builds
+--> Image Optimization
+--> Minification
+--> Bundling
+--> Compress
+--> Consistent Hashing
+--> Code Spliting
+--> Differential Bundling - support older browsers
+--> Error Handling
+--> To host your app on https
+--> Tree Shaking Algorithm
+--> Different Dev and Prod bundles
