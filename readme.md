@@ -58,6 +58,9 @@ What is the difference between git and github?
 --> CODE THAT IS PRODUCTION READY
 --> HOW YOU CAN CREATE YOUR OWN PRODUCTION READY CREATE REACT APP
 
+Can react itself do the production ready app --> runs faster also
+No, react is one of them, there are many other packages that are making our application faster
+
 What is NPM
 NODE PACKAGE MANAGER (NOT CORRECT)
 npm manages the packages but not stands for node package manager
@@ -72,7 +75,7 @@ example: webpack, wheat, bable, parcel
 
 create-react-app  uses webpack bundler behind the scenes
 
-npm install -D parcel
+# npm install -D parcel
 
 what is -D?
 There are two dependencies
@@ -113,6 +116,7 @@ npm install react
 npm install react-dom
 
 Browser scripts cannot have imports and exports
+type="module"
 <script type="module" src="./app.js"></script>
 
 parcel
@@ -129,8 +133,15 @@ parcel
 --> Code Spliting
 --> Differential Bundling - support older browsers
 --> Error Handling
---> To host your app on https
+--> To host your app on HTTPS
 --> Tree Shaking Algorithm
 --> Different Dev and Prod bundles
+
+Production Build
+npx parcel build index.html
+
+Error in package.json --> remove this
+,
+  "main": "App.js",
 
 <!-- Episode 2 Notes Completed -->

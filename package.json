@@ -1,0 +1,34 @@
+{
+  "name": "namaste-reactcode",
+  "version": "1.0.0",
+  "description": "This is Understanding React by Kishan Kumar",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kishan-kumar2020/Namaste-ReactCode.git"
+  },
+  "keywords": [
+    "react",
+    "understanding",
+    "react",
+    "kishan",
+    "kumar"
+  ],
+  "author": "Kishan Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kishan-kumar2020/Namaste-ReactCode/issues"
+  },
+  "homepage": "https://github.com/Kishan-kumar2020/Namaste-ReactCode#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
