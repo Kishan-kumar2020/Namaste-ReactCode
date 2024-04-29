@@ -145,3 +145,43 @@ Error in package.json --> remove this
   "main": "App.js",
 
 <!-- Episode 2 Notes Completed -->
+
+<!-- Episode 3 notes Starts from here -->
+part 01
+# Creating a script to run the project
+package.json
+scripts {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+}
+
+npm run start = npm start ✅
+npm run build = npm build ❌
+
+part 02
+Recap of React.createElement("", {}, "");
+Recap of ReactDOM.createRoot(document.getElementById());
+Recap of root.render();
+
+part 03
+#JSX
+--> JavaScript Syntax which is easier to create React Elements
+--> JSX is not the part of JSX
+
+JSX is HTML inside JavaScript ❌
+JSX is HTML like or XML like Syntax 
+
+// const jsxHeading = <h1 id="heading">Namaste React using JSX 🚀</h1>
+[JS Engine will not understand this piece of code as JSX is not pure JavaScript]
+As, JS Engine understand ES6 === ECHMAScript 6
+than how??
+Parcel is doing the job
+
+//JSX code is transpiled before it reaches to JS Engine
+Parcel transpiled
+Parcel -- Babel is doing the transpilation
+
+part 04
+# React Components
+--> Class Based Components - OLD
+--> Functional Component - NEW
