@@ -185,3 +185,5 @@ part 04
 # React Components
 --> Class Based Components - OLD
 --> Functional Component - NEW
+
+part 05
