@@ -197,3 +197,5 @@ part 05
 
 part 01
 # Building Food Ordering App
+
+# How to write inline css in JSX
