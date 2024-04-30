@@ -147,6 +147,8 @@ Error in package.json --> remove this
 <!-- Episode 2 Notes Completed -->
 
 <!-- Episode 3 notes Starts from here -->
+# For Episode 3
+
 part 01
 # Creating a script to run the project
 package.json
@@ -187,3 +189,11 @@ part 04
 --> Functional Component - NEW
 
 part 05
+
+<!-- Episode 3 Notes Completed -->
+
+<!-- Episode 4 notes Starts from here -->
+# For Episode 4
+
+part 01
+# Building Food Ordering App
