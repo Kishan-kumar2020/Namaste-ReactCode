@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import img from "./Assets/smoking-burger-with-lettuce-3624ld.png";
 
 /**
  * Header
@@ -9,6 +10,8 @@ import ReactDOM from "react-dom/client";
  * - Search
  * - RestaurantContainer
  *   - RestaurantCard
+ *     - Img
+ *     - Name of res, Star Rating, Cuisine, delivery time
  * Footer
  * - Copyright
  * - Links
@@ -20,7 +23,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="logo-container">
-                <img className="logo" src="./Assets/smoking-burger-with-lettuce-3624ld.png" />
+                <img className="logo" src={img} />
             </div>
             <div className="nav-item">
                 <ul>
@@ -34,10 +37,31 @@ const Header = () => {
     )
 }
 
+const RestaurantCard = () => {
+    return (
+        <div className="res-card">
+            <h3>Meghana Foods</h3>
+        </div>
+    )
+}
+
+const Body = () => {
+    return (
+        <div className="body">
+            <div className="Search">Search</div>
+            <div className="res-container">
+                {/* Restaurant Card */}
+                <RestaurantCard />
+            </div>
+        </div>
+    )
+}
+
 const AppLayout = () => {
     return (
         <div className="app">
             <Header />
+            <Body />
         </div>
     )
 }
