@@ -19,6 +19,159 @@ import img from "./Assets/smoking-burger-with-lettuce-3624ld.png";
  * - Contact
  */
 
+const resList = [
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    },
+    {
+        id	:	305819,
+        name	:	"Barbeque Nation",
+        cloudinaryImageId	:	"eqlv13396tnnwufweqpl",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	60000,
+        cuisines    :	"North Indian",
+        avgRating	:	3.9,
+        deliveryTime	:	47,
+    },
+    {
+        id	:	692100,
+        name	:	"BOOM Sandwich - Sub of India",
+        cloudinaryImageId	:	"96aaf72372ad1b0297b7cc304ced7e33",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	25000,
+        cuisines    :	"Snacks, Indian",
+        avgRating	:	4.4,
+        deliveryTime	:	32,
+    },
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    },
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    },
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    },
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    },
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    },
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    },
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    },
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    },
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    },
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    },
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    },
+    {
+        id	:	568728,
+        name	:	"Pizza Hut",
+        cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
+        // costForTwo	:	₹350 for two,
+        costForTwo	:	35000,
+        cuisines    :	"Pizzas",
+        avgRating	:	4.1,
+        deliveryTime	:	29,
+    }
+];
+
 const Header = () => {
     return (
         <div className="header">
@@ -37,14 +190,19 @@ const Header = () => {
     )
 }
 
-const RestaurantCard = () => {
+const RestaurantCard = (props) => {
+    // console.log(props);
+    const {resData} = props;
+
+    const {id, cloudinaryImageId, name, cuisines, avgRating, deliveryTime} = resData;
+
     return (
-        <div className="res-card" style={{backgroundColor: "#f0f0f0"}}>
-            <img className="res-logo" src={img} alt="res-logo" />
-            <h3>Meghana Foods</h3>
-            <h4>Biryani, North Indian, Asian</h4>
-            <h4>4.4 stars</h4>
-            <h4>38 minutes</h4>
+        <div key={id} className="res-card" style={{backgroundColor: "#f0f0f0"}}>
+            <img className="res-logo" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId} alt="res-logo" />
+            <h3>{name}</h3>
+            <h4>{cuisines}</h4>
+            <h4>{avgRating} stars</h4>
+            <h4>{deliveryTime} minutes</h4>
         </div>
     )
 }
@@ -54,19 +212,10 @@ const Body = () => {
         <div className="body">
             <div className="Search">Search</div>
             <div className="res-container">
-                {/* Restaurant Card */}
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
+                {
+                    resList.map(restaurant =>
+                    <RestaurantCard resData={restaurant} />)
+                }
             </div>
         </div>
     )

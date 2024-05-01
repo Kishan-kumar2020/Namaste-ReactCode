@@ -199,3 +199,17 @@ part 01
 # Building Food Ordering App
 
 # How to write inline css in JSX
+
+part 02
+# Making the card content dynamic
+
+[props]
+As passing the props to a component is same as passing an argument to a function
+
+What is config driven UI
+UI is config driven
+data is the config
+
+Smallest example of config driven UI
+
+<!-- Episode 4 Notes Completed -->
