@@ -149,6 +149,23 @@ Error in package.json --> remove this
 <!-- Episode 3 notes Starts from here -->
 # For Episode 3
 
+[AppStructure] --> [FoodOrderingApp]
+
+* Header
+* - Logo
+* - Nav Items
+* Body
+* - Search
+* - RestaurantContainer
+*   - RestaurantCard
+*   * - Img
+*   * - Name of res, Star Rating, Cuisine, delivery time
+* Footer
+* - Copyright
+* - Links
+* - Address
+* - Contact
+
 part 01
 # Creating a script to run the project
 package.json
@@ -213,3 +230,50 @@ data is the config
 Smallest example of config driven UI
 
 <!-- Episode 4 Notes Completed -->
+
+<!-- Episode 5 notes Starts from here -->
+part 01
+# React Hooks
+
+First
+--> Separate Files for separate components
+
+Folder Structure
+currently, we have all files at root folder
+
+creating a src folder
+
+[// React.createElement() ==> Object ==> HTMLElement(render)
+const Heading = React.createElement("h1", {id: "heading"}, "Namaste React 🚀");
+
+
+// jsx
+// React Element
+const jsxHeading = <h1 id="heading" className="head" tabIndex="2">Namaste React using JSX 🚀</h1>
+
+//    Babel                  Parcel     Parcel
+// JSX ==> React.createElement ==> Object ==> HTMLElement
+
+// React Component
+const HeadingComponent = () => {
+    return (
+        <h1>Namaste React Functional Component</h1>
+    );
+}
+
+// A function which returns JSX]
+
+# Two types of import and export
+# Default export/import
+export deafult Component;
+import Component from "path";
+
+# Named export/import
+const CDN_URL = "";
+--> export default CDN_URL; ❌
+--> export CDN_URL; ❌
+
+export const CDN_URL = ""; ✅
+import { CDN_URL } from "path";
+
+Q. Can we do both types of export togather?
