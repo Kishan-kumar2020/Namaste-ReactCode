@@ -277,3 +277,18 @@ export const CDN_URL = ""; ✅
 import { CDN_URL } from "path";
 
 Q. Can we do both types of export togather?
+
+part 02
+Why react is faster?
+--> DOM Manipulation
+--> Virtual DOM
+--> Diff Algorithm
+--> Reconsiliation (React Fiber)
+
+# React Hooks
+Normal JS Utility Function
+
+useState()
+useEffect()
+
+Whenever a state variable changes react rerenders the component

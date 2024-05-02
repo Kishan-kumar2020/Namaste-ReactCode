@@ -1,6 +1,6 @@
 const resList = [
     {
-        id	:	568728,
+        id	:	566219,
         name	:	"Pizza Hut",
         cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
         // costForTwo	:	₹350 for two,
@@ -40,7 +40,7 @@ const resList = [
         deliveryTime	:	29,
     },
     {
-        id	:	568728,
+        id	:	568729,
         name	:	"Pizza Hut",
         cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
         // costForTwo	:	₹350 for two,
@@ -50,7 +50,7 @@ const resList = [
         deliveryTime	:	29,
     },
     {
-        id	:	568728,
+        id	:	568731,
         name	:	"Pizza Hut",
         cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
         // costForTwo	:	₹350 for two,
@@ -60,7 +60,7 @@ const resList = [
         deliveryTime	:	29,
     },
     {
-        id	:	568728,
+        id	:	568732,
         name	:	"Pizza Hut",
         cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
         // costForTwo	:	₹350 for two,
@@ -70,7 +70,7 @@ const resList = [
         deliveryTime	:	29,
     },
     {
-        id	:	568728,
+        id	:	568733,
         name	:	"Pizza Hut",
         cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
         // costForTwo	:	₹350 for two,
@@ -80,7 +80,7 @@ const resList = [
         deliveryTime	:	29,
     },
     {
-        id	:	568728,
+        id	:	568734,
         name	:	"Pizza Hut",
         cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
         // costForTwo	:	₹350 for two,
@@ -90,7 +90,7 @@ const resList = [
         deliveryTime	:	29,
     },
     {
-        id	:	568728,
+        id	:	568735,
         name	:	"Pizza Hut",
         cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
         // costForTwo	:	₹350 for two,
@@ -100,7 +100,7 @@ const resList = [
         deliveryTime	:	29,
     },
     {
-        id	:	568728,
+        id	:	568736,
         name	:	"Pizza Hut",
         cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
         // costForTwo	:	₹350 for two,
@@ -110,7 +110,7 @@ const resList = [
         deliveryTime	:	29,
     },
     {
-        id	:	568728,
+        id	:	568737,
         name	:	"Pizza Hut",
         cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
         // costForTwo	:	₹350 for two,
@@ -120,7 +120,7 @@ const resList = [
         deliveryTime	:	29,
     },
     {
-        id	:	568728,
+        id	:	568738,
         name	:	"Pizza Hut",
         cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
         // costForTwo	:	₹350 for two,
@@ -130,7 +130,7 @@ const resList = [
         deliveryTime	:	29,
     },
     {
-        id	:	568728,
+        id	:	568739,
         name	:	"Pizza Hut",
         cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
         // costForTwo	:	₹350 for two,
@@ -140,7 +140,7 @@ const resList = [
         deliveryTime	:	29,
     },
     {
-        id	:	568728,
+        id	:	568740,
         name	:	"Pizza Hut",
         cloudinaryImageId	:	"2b4f62d606d1b2bfba9ba9e5386fabb7",
         // costForTwo	:	₹350 for two,
