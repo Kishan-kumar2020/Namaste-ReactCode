@@ -292,3 +292,21 @@ useState()
 useEffect()
 
 Whenever a state variable changes react rerenders the component
+
+<!-- Episode 5 Notes Completed -->
+
+<!-- Episode 6 notes Starts from here -->
+part 01
+# Monolith and Microservice Architecture
+
+There are many services that are in the same repository
+
+part 02
+
+Loads ==> API ==> Render
+Loads ==> Render ==> API ==> Render
+
+part 03
+the useEffect() hook will be called after page loads
+api calls
+fetchData();
