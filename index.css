@@ -62,3 +62,23 @@
     margin-block: 10px;
     cursor: pointer;
 }
+
+/* Shimmer */
+.shimmer-container {
+    margin-block: 10px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 220px);
+    gap: 10px;
+}
+
+.shimmer-btn {
+    width: 100px;
+    height: 20px;
+    margin-block: 10px;
+}
+
+.shimmer-card {
+    height: 350px;
+    background-color: #f0f0f0;
+}

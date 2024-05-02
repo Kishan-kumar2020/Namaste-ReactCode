@@ -1,6 +1,7 @@
 import RestaurantCard from "./RestaurantCard";
 import resList from "../utils/mockData";
 import { useEffect, useState } from "react";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
@@ -17,6 +18,10 @@ const Body = () => {
     } catch (error) {
       console.error("Error fetching data:", error); // Log any fetch errors
     }
+  }
+
+  if(listOfRestaurants.length === 0) {
+    return <Shimmer />
   }
 
   return (

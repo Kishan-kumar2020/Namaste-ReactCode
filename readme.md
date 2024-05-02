@@ -310,3 +310,6 @@ part 03
 the useEffect() hook will be called after page loads
 api calls
 fetchData();
+
+part 04
+Shimmer UI
