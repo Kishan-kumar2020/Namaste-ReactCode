@@ -22,6 +22,7 @@
 .nav-item > ul > li {
     padding-right: 20px;
     font-size: 24px;
+    align-self: center;
 }
 
 .Search {
@@ -81,4 +82,20 @@
 .shimmer-card {
     height: 350px;
     background-color: #f0f0f0;
+}
+
+.login {
+    width: 90px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.search-box {
+    margin-block: 10px;
 }

@@ -313,3 +313,8 @@ fetchData();
 
 part 04
 Shimmer UI
+
+part 05
+Search
+
+<!-- Episode 6 Notes Completed -->
