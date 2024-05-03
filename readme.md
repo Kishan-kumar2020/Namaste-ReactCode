@@ -317,4 +317,10 @@ Shimmer UI
 part 05
 Search
 
+# 6.1
+Swiggy API
+
+# 6.2
+CORS Plugin
+
 <!-- Episode 6 Notes Completed -->
