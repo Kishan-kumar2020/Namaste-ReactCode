@@ -4,6 +4,9 @@ import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 
 const Body = () => {
+  
+  // Local State Variable - Super powerful variable
+  // Whenever state variable updates - react triggers a reconsiliation cycle(re-renders the component)
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [searchText, setSearchText] = useState("");
@@ -19,11 +22,11 @@ const Body = () => {
       );
       const json = await data.json();
       setListOfRestaurants(
-        json?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle
+        json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
           ?.restaurants
       );
       setFilteredRestaurants(
-        json?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle
+        json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
           ?.restaurants
       );
     } catch (error) {
@@ -48,8 +51,11 @@ const Body = () => {
           <button
             onClick={() => {
               console.log(searchText);
+              setFilteredRestaurants(listOfRestaurants);
               const filteredRestaurants = listOfRestaurants.filter((res) => {
-                return res.info.name.toLowerCase().includes(searchText.toLowerCase())
+                return res.info.name
+                  .toLowerCase()
+                  .includes(searchText.toLowerCase());
               });
               setFilteredRestaurants(filteredRestaurants);
             }}
@@ -64,6 +70,7 @@ const Body = () => {
               (res) => res?.info?.avgRating > 4
             );
             setListOfRestaurants(filteredList);
+            setFilteredRestaurants(filteredList);
           }}
         >
           Top Rated Restaurants

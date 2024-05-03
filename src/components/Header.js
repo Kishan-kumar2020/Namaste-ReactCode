@@ -1,9 +1,17 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import img from "../../Assets/smoking-burger-with-lettuce-3624ld.png";
 
 const Header = () => {
 
     const [loginName, setLoginName] = useState("LOGIN");
+    console.log("Header render");
+
+    // if no dependency array ==> useEffect is called on every render
+    // if dependency array is empty = [] ==> useEffect is called on initial render and once
+    // if depenency array is [{loginName}] ==> useEffect is called everytime loginName is updated 
+    useEffect(()=>{
+        console.log("useEffect Called");
+    },[loginName])
 
     return (
         <div className="header">
