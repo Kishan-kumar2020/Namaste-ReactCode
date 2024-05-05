@@ -370,6 +370,18 @@ part 04
 # Pages Intact
 # children Routes
 
+import { Outlet } from "react-router-dom";
+
+import { Link } from "react-router-dom";
+
+<Link to="/">About</Link>
+
+SinglePageApplication via Client Side Routing
+
+# 2 types of routing
+--> Client Side Routing
+--> Server Side Routing
+
 part 05
 
 GraphQL
