@@ -324,3 +324,89 @@ Swiggy API
 CORS Plugin
 
 <!-- Episode 6 Notes Completed -->
+
+<!-- Episode 7 notes Starts from here -->
+part 01
+useState()
+useEffect()
+
+part 02
+npm i react-router-dom
+
+part 03
+import { createBrowserRouter } from "react-router-dom";
+
+we create a appRouter
+
+const appRouter = createBrowserRouter([
+    {
+        path: "",
+        element: <App />,
+        errorElement: <Error />
+    }
+    {
+        path: "/contact",
+        element: <Contact />,
+    },
+    {
+        path: "/about",
+        element: <About />,
+    }
+])
+
+creating a About Us page
+
+app.js
+import { RouterProvider } from "react-router-dom"
+This will provide the routing configration appRouter to our app
+
+<RouterProvider router={appRouter} />
+
+read more about react-router-dom
+
+useRouteError
+
+part 04
+# Pages Intact
+# children Routes
+
+part 05
+
+GraphQL
+useParams
+
+
+Episode 8
+Class Based Components
+
+import React from "react"; || import { Component } from "react";
+
+class ComponentName extends React.Component {
+    constructor(props) {
+        super(props);
+
+    }
+    render() {
+        return (
+
+        )
+    }
+}
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+class ComponentName extends Component {
+    constructor(props) {
+        super(props);
+
+    }
+    render() {
+        return (
+
+        )
+    }
+}
+
+React renders ==> React updates
+
+renders ==> commits
