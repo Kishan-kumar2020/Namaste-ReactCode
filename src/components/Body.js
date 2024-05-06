@@ -1,8 +1,8 @@
 import RestaurantCard from "./RestaurantCard";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
-import { RES_URL } from "../utils/constants";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   
@@ -33,6 +33,14 @@ const Body = () => {
     } catch (error) {
       console.error("Error fetching data:", error); // Log any fetch errors
     }
+  };
+
+  const onlineStatus = useOnlineStatus();
+
+  if(onlineStatus === false) {
+    return (
+      <h1>You' re offline</h1>
+    );
   };
 
   return listOfRestaurants.length === 0 ? (

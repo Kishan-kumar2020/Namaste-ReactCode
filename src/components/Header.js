@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import img from "../../Assets/smoking-burger-with-lettuce-3624ld.png";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Header = () => {
 
@@ -14,6 +15,8 @@ const Header = () => {
         console.log("useEffect Called");
     },[loginName])
 
+    const onlineStatus = useOnlineStatus();
+
     return (
         <div className="header">
             <div className="logo-container">
@@ -21,6 +24,7 @@ const Header = () => {
             </div>
             <div className="nav-item">
                 <ul>
+                    <li>{onlineStatus ? "Online 🟢" : "Offline 🔴"}</li>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About Us</Link></li>
                     <li><Link to="/contact">Contact Us</Link></li>

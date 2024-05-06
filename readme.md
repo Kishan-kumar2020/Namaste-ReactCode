@@ -389,7 +389,7 @@ useParams
 
 <!-- Episode 7 Notes Completed -->
 
-Episode 8
+<!-- Episode 8 notes Starts from here -->
 Class Based Components
 
 import React from "react"; || import { Component } from "react";
@@ -423,3 +423,22 @@ class ComponentName extends Component {
 React renders ==> React updates
 
 renders ==> commits
+
+<!-- Episode 8 -->
+
+<!-- Episode 9 notes Starts from here -->
+part 01
+single responsibility principle
+  code becomes
+    - reusable
+    - maintainable
+    - testable
+
+part 02
+creating custom hooks --> They are normal JavaScript utility functions
+To write custom hooks check first for what is the input and the expected output from that than start creating hooks
+
+part 03
+onlineEvent
+
+part 04
