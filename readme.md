@@ -387,6 +387,7 @@ part 05
 GraphQL
 useParams
 
+<!-- Episode 7 Notes Completed -->
 
 Episode 8
 Class Based Components
