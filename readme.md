@@ -458,3 +458,12 @@ SCSS and SASS
 Styled Components
 Material UI, Chakra UI, Bootstrap, ant design
 Tailwind CSS
+
+part 02
+Tailwind CSS
+As we are using parcel, we install that for parcel way
+
+npm install -D tailwindcss postcss
+npx tailwindcss init
+
+postcss --> A tool for transforming CSS with JavaScript
