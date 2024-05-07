@@ -442,3 +442,10 @@ part 03
 onlineEvent
 
 part 04
+
+part 05
+Code Chunking || Code Spliting || Dynamic Loading || Dynamic Bundling || On Demand Loading || Lazy Loading || Dynamic Import
+
+import { lazy, suspense } from "react";
+
+<!-- Episode 9 Notes Completed -->
