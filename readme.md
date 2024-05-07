@@ -449,3 +449,12 @@ Code Chunking || Code Spliting || Dynamic Loading || Dynamic Bundling || On Dema
 import { lazy, suspense } from "react";
 
 <!-- Episode 9 Notes Completed -->
+
+<!-- Episode 10 notes Starts from here -->
+part 01
+Adding CSS
+CSS
+SCSS and SASS
+Styled Components
+Material UI, Chakra UI, Bootstrap, ant design
+Tailwind CSS
