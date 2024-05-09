@@ -6,7 +6,7 @@
 PART 01
 
 PART 02
-# After including CDN links, building basic hellow world program using react
+# After including CDN links, building basic hello world program using react
 
 # index.html
 creating a element is the core thing of react that comes from react.development.js
@@ -467,3 +467,19 @@ npm install -D tailwindcss postcss
 npx tailwindcss init
 
 postcss --> A tool for transforming CSS with JavaScript
+
+<!-- Episode 10 Noted Completed -->
+
+<!-- Episode 11 notes Starts from here -->
+part 01
+Higher order functions || higher order components
+takes a function and returns a function || takes a component and returns a component
+
+part 02
+Restaurant Menu
+click on the restaurant ==> Restaurant Menu
+
+part 03
+Lifting the state up
+
+part 04
