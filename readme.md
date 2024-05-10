@@ -483,3 +483,10 @@ part 03
 Lifting the state up
 
 part 04
+props drilling
+
+useContext is one way to avoid props drilling
+
+React Context
+
+<!-- Episode 11 Notes Completed -->
