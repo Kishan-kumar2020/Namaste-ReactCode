@@ -490,3 +490,41 @@ useContext is one way to avoid props drilling
 React Context
 
 <!-- Episode 11 Notes Completed -->
+
+<!-- Episode 12 notes Starts from here -->
+part 01
+Redux
+used for managing state
+Redux offers easy debugging
+
+React and Redux are different libraries
+
+Zustand
+also used for managing state
+
+part 02
+A predictable State container for JS Apps
+
+Vanila Redux
+
+RTK
+Redux Tool Kit
+Reasons to use RTK are:
+    Configuring a Redux Store is too complicated
+    I have to add a lot of packages to get Redux to do anything useful
+    Redux required too much boilerplate code
+
+-----------------------------------------------------------------------------------
+part 03
+
+part 04
+build our store
+
+install libraries
+--- 
+install @reduxjs/toolkit and react-redux
+
+selector is a hook
+gives access to the store
+
+<!-- Episode 12 Notes Completed -->
